@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyBot", "BunnyBot\BunnyBot.csproj", "{94B6EF72-682A-41C5-9DAF-9880558F9B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B6EF72-682A-41C5-9DAF-9880558F9B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B6EF72-682A-41C5-9DAF-9880558F9B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B6EF72-682A-41C5-9DAF-9880558F9B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B6EF72-682A-41C5-9DAF-9880558F9B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75734B03-3A3C-42EF-8574-1BBBE93A53F2}
+	EndGlobalSection
+EndGlobal
