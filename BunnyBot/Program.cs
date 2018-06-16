@@ -42,7 +42,7 @@ namespace BunnyBot
             commands.Log += Commands_Log;
 
             string token = "";
-            using (var stream = new FileStream((Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)).Replace(@"bin\Debug\netcoreapp2.0", @"data\token.txt"), FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream((Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)).Replace(@"bin\Debug\netcoreapp2.0", @"Data\token.txt"), FileMode.Open, FileAccess.Read))
             using (var readToken = new StreamReader(stream))
             {
                 token = readToken.ReadToEnd();
