@@ -84,7 +84,13 @@ namespace BunnyBot
             var result = await commands.ExecuteAsync(context, argPos);
 
             if (!result.IsSuccess)
+            {
                 Console.WriteLine($"{DateTime.Now} at commands: Something went wrong executing command. Text: {context.Message.Content} | Error: {result.ErrorReason}");
+                context.Channel.SendMessageAsync($":x: {DateTime.Now} at commands: Something went wrong executing command. Text: {context.Message.Content} | Error: {result.ErrorReason}");
+            }
+                
+            
+
         }
     }
 }
